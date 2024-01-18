@@ -1,0 +1,263 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(0, 185, 0);
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 80px;
+}
+
+.logo{
+    font-size: 30px;
+    color: yellow;
+    font-style: italic;
+}
+nav i{
+    font-size: 25px;
+    color: yellow;
+}
+nav i:hover{
+    color:black;
+}
+
+ul{
+    display:flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    margin-inline: 22px;
+    color: rgb(196, 196, 196);
+}
+ul li a:hover{
+    color: rgb(1, 31, 1);
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 107px;
+}
+.main img{
+    width: 350px;
+}
+.main h1{
+    font-size: 50px;
+}
+.main p{
+    color: black;
+    margin-top: 20px;
+}
+.main button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(250, 0, 42);
+    color: white;
+    border: none;
+    margin-top: 22px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.mainText{
+    margin-top: 74px;
+}
+.head{
+    text-align: center;
+    padding: 88px;
+    font-style: oblique;
+}
+.plant{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.plantCard{
+    width: 300px;
+    margin-inline: 22px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+.plantCard p{
+    margin-top: 11px;
+}
+.plantCard img{
+    width: 100%;
+    height: 300px;
+}
+.plantCard button{
+    width: 90px;
+    height:28px;
+    background-color: rgb(43, 43, 77);
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    margin-top: 11px;
+}
+.seed{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.seedCard{
+    width: 300px;
+    margin-inline: 22px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+.seedCard p{
+    margin-top: 11px;
+}
+.seedCard img{
+    width: 100%;
+    height: 300px;
+}
+.seedCard button{
+    width: 90px;
+    height:28px;
+    background-color: rgb(43, 43, 77);
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    margin-top: 11px;
+}
+.medican{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.medicanCard{
+    width: 300px;
+    margin-inline: 22px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+.medicanCard p{
+    margin-top: 11px;
+}
+.medicanCard img{
+    width: 100%;
+    height: 300px;
+}
+.medicanCard button{
+    width: 90px;
+    height:28px;
+    background-color: rgb(43, 43, 77);
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    margin-top: 11px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 66px;
+    background-color: rgb(1, 80, 1);
+    color: black;
+}
+.text{
+    margin-top: 33px;
+}
+.text p{
+    margin-top: 12px;
+}
+
+.empty{
+    padding: 5px 22px;
+    font-size: 25px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    position: absolute;
+    top:  33px;
+    margin-left: 40%;
+}
+
+.detailCard{
+    width: 900px;
+    display: flex;
+    gap: 25px;
+    margin: auto;
+    margin-top: 66px;
+}
+
+.detailCard img{
+    width: 300px;
+}
+
+.detailCard h1{
+    margin-top: 15px;
+}
+
+.detailCard p{
+    margin-top: 25px;
+}
+
+.detailCard a{
+    padding: 6px 22px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    position: relative;
+    top: 33px;
+    text-decoration: none;
+}
+
+
+
+
+@media screen  and (max-width:970px){
+    .main{
+        display: block;
+        text-align: center;
+    }
+    .detailCard{
+        display: block;
+        width: 90%;
+        text-align: center;
+    }
+    
+}
+
+@media screen  and (max-width:700px){
+    ul{
+        display: none;
+    }
+}
+
+@media screen  and (max-width:570px){
+    .main h1{
+        font-size: 33px;
+    }
+    .main img{
+        width: 90%;
+    }
+    .detailCard img{
+        width: 90%;
+    }
+}
